@@ -19,7 +19,13 @@
 ## 服务器
 
 # 4、配置操作
+## CDN后台添加一个二级域名，并配置业务信息，然后复制CNAME值【test.jsoncode.cn.w.kunlunaq.com】
+## 域名后台管理解析主域名，并添加一个CNAME解析，将上面复制的CNAME值添加到新的解析主机记录里面的【记录值上】
 
 # 5、如何看加速成功
 ## f12 看响应头，如果有CDN域名管理的CNAME值【test.jsoncode.cn.w.kunlunaq.com】
 ## 或者ping test.jsoncode.cn
+
+# 6、对于修改后的文件访问
+## 1》增加版本号，才会增加边缘服务器实时修改
+## 2》cdn后台的刷新预热
