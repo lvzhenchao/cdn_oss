@@ -18,4 +18,8 @@
 ## 已备案的域名
 ## 服务器
 
-# 4、操作
+# 4、配置操作
+
+# 5、如何看加速成功
+## f12 看响应头，如果有CDN域名管理的CNAME值【test.jsoncode.cn.w.kunlunaq.com】
+## 或者ping test.jsoncode.cn
